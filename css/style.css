@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/vazir.eot') format('eot'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype')
+}
+
+body {
+    font-family: 'Vazir';
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+}
+
+
+/*  header  */
+
+header {
+    position: relative;
+    background-image: url('../images/bakcground-header.jpg');
+    height: 100vh;
+    width: 100%;
+}
+
+header.header-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+header nav {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 80px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    line-height: 4;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header nav .logo {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    float: right;
+    text-align: left;
+    height: 100%;
+}
+
+header nav .logo img {
+    width: 80px;
+    margin-top: 5px;
+}
+
+header .header-desc {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+header .header-desc H1 {
+    font-size: 50PX;
+}
+
+header .header-desc P {
+    font-size: 20PX;
+}
+
+
+/* our-story */
+
+#our-story {
+    width: 100%;
+    height: 400px;
+    padding: 100px 0;
+}
+
+#our-story .story-desc {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+#our-story .story-desc h2 {
+    font-size: 30px;
+    margin: top 150px;
+}
+
+#our-story .story-desc p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+    width: 450px;
+    margin: auto;
+}
+
+#our-story .story-img {
+    width: 50%;
+    float: right;
+}
+
+#our-story .story-img img {
+    width: 100%;
+}
